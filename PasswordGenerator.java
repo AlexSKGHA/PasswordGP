@@ -63,7 +63,7 @@ public class PasswordGenerator {
         if (args.length == requiredAmount)
             amountCheck = true;
 
-        if ((valueCheck == true) && (amountCheck == true)) {
+        if ((valueCheck) && (amountCheck)) {
             return true;
         } else {
             return false;
